@@ -21,112 +21,22 @@
   ],
   "events": [
     {
-      "id": "event_316756929@meetup.com",
-      "title": "Stoicism 101: Week 6 - Self-Control",
-      "start": "2026-10-15T19:30:00-04:00",
-      "end": "2026-10-15T20:30:00-04:00",
-      "all_day": false,
-      "tz": "America/New_York",
-      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.",
-      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.\n\nHere's the video: https://youtu.be/G1nM9UCJCIs?si=abc&t=6203\n\n\"There is no such thing as good or bad fortune for the individual; we live in common.\" - Seneca",
-      "location": "",
-      "sources": [
-        {
-          "group": "stoicism",
-          "url": "https://www.meetup.com/stoicism/events/316756929/"
-        }
-      ],
-      "image": ""
-    },
-    {
-      "id": "event_316657466@meetup.com",
-      "title": "Reading Plotinus with Hadot: Chapter 7 - Solitude",
-      "start": "2026-10-16T20:00:00-04:00",
-      "end": "2026-10-16T22:00:00-04:00",
-      "all_day": false,
-      "tz": "America/New_York",
-      "summary": "Plotinus is one of the strangest and most rewarding thinkers in the Western tradition.",
-      "description": "Plotinus is one of the strangest and most rewarding thinkers in the Western tradition.\n\nFormat\n• We listen to the chapter together\n• Open discussion follows",
-      "location": "Online event",
-      "sources": [
-        {
-          "group": "cambridgeplatonists",
-          "url": "https://www.meetup.com/cambridgeplatonists/events/316657466/"
-        }
-      ],
-      "image": "https://secure.meetupstatic.com/photos/event/3/c/9/7/600_535095511.jpeg?a=1&b=2"
-    },
-    {
-      "id": "event_316938275@meetup.com",
-      "title": "Sunday Stoa #134",
-      "start": "2026-10-18T16:00:00-04:00",
-      "end": "2026-10-18T19:00:00-04:00",
-      "all_day": false,
-      "tz": "America/New_York",
-      "summary": "If you're interested in going deeper, join us for Sunday Stoa.",
-      "description": "If you're interested in going deeper, join us for Sunday Stoa.\n\nWe begin at 4:00 PM (ET) with breath meditation.\n• 4:30 PM: introductions\n• 5:00 PM: readings and discussion\n\nCome for the whole thing.",
-      "location": "Online event",
-      "sources": [
-        {
-          "group": "stoicism",
-          "url": "https://www.meetup.com/stoicism/events/316938275/"
-        }
-      ],
-      "image": "https://secure.meetupstatic.com/photos/event/b/f/6/9/600_533269001.jpeg"
-    },
-    {
-      "id": "event_316756945@meetup.com",
-      "title": "Stoicism 101: Week 12 - How to Practice Stoicism",
-      "start": "2026-10-19T19:30:00-04:00",
-      "end": "2026-10-19T20:30:00-04:00",
-      "all_day": false,
-      "tz": "America/New_York",
-      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.",
-      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.\n\nHere's the video: https://youtu.be/G1nM9UCJCIs?si=abc&t=6203\n\n\"There is no such thing as good or bad fortune for the individual; we live in common.\" - Seneca",
-      "location": "",
-      "sources": [
-        {
-          "group": "stoicism",
-          "url": "https://www.meetup.com/stoicism/events/316756945/"
-        }
-      ],
-      "image": ""
-    },
-    {
-      "id": "event_316959964@meetup.com",
-      "title": "Controlling Your Own Emotional Destiny",
-      "start": "2026-10-20T19:30:00-04:00",
-      "end": "2026-10-20T20:30:00-04:00",
-      "all_day": false,
-      "tz": "America/New_York",
-      "summary": "\"They made me feel like an idiot.\" We say things like this constantly, and almost never notice the claim buried in them.",
-      "description": "\"They made me feel like an idiot.\"\nWe say things like this constantly, and almost never notice the claim buried in them.",
-      "location": "",
-      "sources": [
-        {
-          "group": "philosophy-therapy",
-          "url": "https://www.meetup.com/philosophy-therapy/events/316326073/"
-        }
-      ],
-      "image": ""
-    },
-    {
       "id": "event_316757000@meetup.com",
       "title": "Stoicism 101: Week 7 - Anger",
       "start": "2026-10-22T19:30:00-04:00",
       "end": "2026-10-22T20:30:00-04:00",
       "all_day": false,
       "tz": "America/New_York",
-      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.",
-      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.\n\nHere's the video: https://youtu.be/G1nM9UCJCIs?si=abc&t=6203\n\n\"There is no such thing as good or bad fortune for the individual; we live in common.\" - Seneca",
-      "location": "",
+      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off the event with a short presentation exploring one of the core ideas of Stoicism, focusing on its real-world application with some practices drawn from the texts.…",
+      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off the event with a short presentation exploring one of the core ideas of Stoicism, focusing on its real-world application with some practices drawn from the texts. Following the presentation, we'll break into smaller groups for a lightly-facilitated discussion about the topic.\n\nThis week, we'll be discussing anger and how to master this most dangerous of passions. We'll examine why anger is a form of temporary madness, the process for preventing and subduing it, and how we can use our daily reflection journaling to bring this vice under our control.\n\nHere's the video we'll be watching: https://youtu.be/G1nM9UCJCIs?si=C_8QPw1yPWtsWcvu&t=7574\n\nAnd here's the text, along with the rest of the resources for the course: https://docs.google.com/document/d/1-6r2KFyv7f-vChnX-9eKovdFsQ6DYoc_CV5RZtJb9XA/edit?usp=sharing\n\nThanks so much for your interest, and please remember:\n\n\"There is no such thing as good or bad fortune for the individual; we live in common. And no one can live happily who has regard to himself alone and transforms everything into a question of his own utility; you must live for your neighbor, if you would live for yourself.\" - Seneca, Letters from a Stoic, Letter 48",
+      "location": "Online event",
       "sources": [
         {
           "group": "stoicism",
           "url": "https://www.meetup.com/stoicism/events/316757000/"
         }
       ],
-      "image": ""
+      "image": "https://secure.meetupstatic.com/photos/event/5/e/1/2/600_535224082.jpeg"
     },
     {
       "id": "event_316960049@meetup.com",
@@ -135,16 +45,16 @@
       "end": "2026-10-25T19:00:00-04:00",
       "all_day": false,
       "tz": "America/New_York",
-      "summary": "If you're interested in going deeper, join us for Sunday Stoa.",
-      "description": "If you're interested in going deeper, join us for Sunday Stoa.\n\nWe begin at 4:00 PM (ET) with breath meditation.\n• 4:30 PM: introductions\n• 5:00 PM: readings and discussion\n\nCome for the whole thing.",
-      "location": "",
+      "summary": "If you're interested in going deeper than just the intro classes and exploring the community side of Stoicism, please join us for Sunday Stoa.",
+      "description": "If you're interested in going deeper than just the intro classes and exploring the community side of Stoicism, please join us for Sunday Stoa.\n\nWe begin at 4:00 PM (ET) with 10 minutes of Stoic breath meditation followed by 15 minutes of writing practice.\nAt 4:30 PM, we move into introductions and social time.\nAround 5:00 PM, we’ll listen to selections from the original Stoic texts and then discuss the ideas they present.\n\nThis week, we’ll be listening to Letters 50 and 51 from Seneca’s Letters from a Stoic: On our blindness and its cure, and On Baiae and morals.\n\nHere's the text and video if you’d like to check them out beforehand:\n\nLetter 50\nText: https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_50\nVideo: https://youtu.be/Ztg2-34UAC4\n\nLetter 51\nText: https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_51\nVideo: https://youtu.be/UF5Z3OqK2Zk\n\nCome for the whole thing or join us whenever it works best for you. See you Sunday!",
+      "location": "Online event",
       "sources": [
         {
           "group": "stoicism",
           "url": "https://www.meetup.com/stoicism/events/316960049/"
         }
       ],
-      "image": ""
+      "image": "https://secure.meetupstatic.com/photos/event/b/f/6/9/600_533269001.jpeg"
     },
     {
       "id": "event_316960102@meetup.com",
@@ -153,34 +63,34 @@
       "end": "2026-10-26T20:30:00-04:00",
       "all_day": false,
       "tz": "America/New_York",
-      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.",
-      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.\n\nHere's the video: https://youtu.be/G1nM9UCJCIs?si=abc&t=6203\n\n\"There is no such thing as good or bad fortune for the individual; we live in common.\" - Seneca",
-      "location": "",
+      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off the event with a short presentation exploring one of the core ideas of Stoicism, focusing on its real-world application with some practices drawn from the texts.…",
+      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off the event with a short presentation exploring one of the core ideas of Stoicism, focusing on its real-world application with some practices drawn from the texts. Following the presentation, we'll break into smaller groups for a lightly-facilitated discussion about the topic.\n\nThis week, we’ll be discussing what the Stoics believed and how they acted, the cardinal virtues, tranquility of mind, the Stoic Sage, and role of mindfulness in Stoicism. We’ll also be going over three practices; one from Seneca, one Epictetus, and one from a different-but-complementary philosophical tradition.\n\nHere's the video we'll be watching: https://youtu.be/G1nM9UCJCIs?si=ogBCQOeVu6mn9WAx&t=6\n\nAnd here's the text, along with the rest of the resources for the course: https://docs.google.com/document/d/1-6r2KFyv7f-vChnX-9eKovdFsQ6DYoc_CV5RZtJb9XA/edit?usp=sharing\n\nThanks so much for your interest, and please remember:\n\n\"There is no such thing as good or bad fortune for the individual; we live in common. And no one can live happily who has regard to himself alone and transforms everything into a question of his own utility; you must live for your neighbor, if you would live for yourself.\" - Seneca, Letters from a Stoic, Letter 48",
+      "location": "Online event",
       "sources": [
         {
           "group": "stoicism",
           "url": "https://www.meetup.com/stoicism/events/316960102/"
         }
       ],
-      "image": ""
+      "image": "https://secure.meetupstatic.com/photos/event/c/2/f/0/600_535309904.jpeg"
     },
     {
-      "id": "event_316326094@meetup.com",
+      "id": "event_317064805@meetup.com",
       "title": "Conquering Anxiety and Panic",
       "start": "2026-10-27T19:30:00-04:00",
       "end": "2026-10-27T20:30:00-04:00",
       "all_day": false,
       "tz": "America/New_York",
       "summary": "Your heart is going. Your chest is tight. Something is definitely wrong. Both of those are true right up until the last three words.",
-      "description": "Your heart is going. Your chest is tight. Something is definitely wrong.\nBoth of those are true right up until the last three words.",
-      "location": "",
+      "description": "Your heart is going. Your chest is tight. Something is definitely wrong.\nBoth of those are true right up until the last three words.\n\nWhy do so many thoughtful, self-aware, well-read people find that:\n• the fear of the panic has become bigger than whatever started it\n• they scan themselves for early signs, which reliably produces early signs\n• knowing it's happened before and passed makes no difference while it's happening\n• they arrange their week around avoiding a feeling\n• the worst part is often the thought of it happening in front of someone\n• telling themselves to relax is about as effective as telling themselves to be taller\n\nA Guide to Rational Living — the 1961 book that became the foundation of modern cognitive therapy — separates the sensation from the verdict. A racing heart is a racing heart. It's adrenaline, and it's uncomfortable, and it is not evidence of anything. The panic is what gets added when the body's report is read as a warning. After that, most of the fear is fear of the fear itself.\n\nWe'll get into:\n• the difference between a symptom and a catastrophe\n• why demanding not to be anxious reliably produces more anxiety\n• what the Stoics said about fearing things in advance\n• what actually happens if you follow \"what if I panic\" all the way through\n• what happens to a feeling you stop trying to prevent\n\nNo reading required. We listen to the chapter together.\n\nThe plan for the night:\n• Quick intro from me — who I am, and where these ideas came from\n• We listen to Chapter 15 together (~20 min)\n• Small-group discussion (~20 min)\n• Q&A and open discussion\n\nNot therapy. No diagnosis. Nothing you have to share. Just a good book and a more reasonable way to see the world.",
+      "location": "Online event",
       "sources": [
         {
-          "group": "philosophy-therapy",
-          "url": "https://www.meetup.com/philosophy-therapy/events/316326094/"
+          "group": "stoicism",
+          "url": "https://www.meetup.com/stoicism/events/317064805/"
         }
       ],
-      "image": ""
+      "image": "https://secure.meetupstatic.com/photos/event/4/8/3/6/600_536718486.jpeg"
     },
     {
       "id": "event_316960128@meetup.com",
@@ -189,16 +99,16 @@
       "end": "2026-10-29T20:30:00-04:00",
       "all_day": false,
       "tz": "America/New_York",
-      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.",
-      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.\n\nHere's the video: https://youtu.be/G1nM9UCJCIs?si=abc&t=6203\n\n\"There is no such thing as good or bad fortune for the individual; we live in common.\" - Seneca",
-      "location": "",
+      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off the event with a short presentation exploring one of the core ideas of Stoicism, focusing on its real-world application with some practices drawn from the texts.…",
+      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off the event with a short presentation exploring one of the core ideas of Stoicism, focusing on its real-world application with some practices drawn from the texts. Following the presentation, we'll break into smaller groups for a lightly-facilitated discussion about the topic.\n\nThis week, we’ll be discussing benefits, gratitude, and the right way to give and receive. We'll talk about why, who, and how to help, in ways which enrich the lives of both the giver and the receiver, and why becoming skilled at the art of generosity is crucial of achieving peace of mind.\n\nHere's the video we'll be watching: https://youtu.be/G1nM9UCJCIs?si=K0ad3ZM_lVEdVASQ&t=8922\n\nAnd here's the text, along with the rest of the resources for the course: https://docs.google.com/document/d/1-6r2KFyv7f-vChnX-9eKovdFsQ6DYoc_CV5RZtJb9XA/edit?usp=sharing\n\nThanks so much for your interest, and please remember:\n\n\"There is no such thing as good or bad fortune for the individual; we live in common. And no one can live happily who has regard to himself alone and transforms everything into a question of his own utility; you must live for your neighbor, if you would live for yourself.\" - Seneca, Letters from a Stoic, Letter 48",
+      "location": "Online event",
       "sources": [
         {
           "group": "stoicism",
           "url": "https://www.meetup.com/stoicism/events/316960128/"
         }
       ],
-      "image": ""
+      "image": "https://secure.meetupstatic.com/photos/event/c/3/5/4/600_535310004.jpeg"
     },
     {
       "id": "event_316326193@meetup.com",
@@ -208,15 +118,15 @@
       "all_day": false,
       "tz": "America/New_York",
       "summary": "You know exactly what you should be doing.",
-      "description": "You know exactly what you should be doing.\n\nNot in general, the specific thing.",
-      "location": "",
+      "description": "You know exactly what you should be doing.\n\nNot in general — the specific thing. The email, the appointment, the work you moved to tomorrow yesterday. It came to mind while you read that first line, which is the whole problem: knowing has never been the missing piece.\n\nWhy do so many thoughtful, self-aware, well-read people find that:\n• they're waiting to feel like it, and have been waiting a while\n• the thing they avoid takes less time than the avoiding does\n• once they finally start, it's rarely as bad as the weeks of not starting\n• an outside deadline gets it done immediately, when nothing else could\n• they've read about this, made a system for it, and abandoned the system\n• putting things off has stopped feeling like something they do and started feeling like who they are\n\nA Guide to Rational Living — the 1961 book that became the foundation of modern cognitive therapy — takes the excuse seriously enough to answer it. You genuinely don't feel like it. That much is true. The false part is the rule hiding underneath it: that the feeling has to come first. It usually doesn't. More often it shows up after you've started, and sometimes it never shows up and the thing gets done anyway.\n\nWe'll get into:\n• why waiting for motivation is the mechanism of the delay, not a symptom of it\n• the difference between \"I don't want to\" and \"I can't make myself\"\n• what the Stoics said about putting things off when tomorrow isn't guaranteed\n• how \"I deserve a break\" becomes an argument against your own interests\n• what changes when the feeling stops being a precondition\n\nNo reading required. We listen to the chapter together.\n\nThe plan for the night:\n• Quick intro from me — who I am, and where these ideas came from\n• We listen to Chapter 16 together (~20 min)\n• Small-group discussion (~…",
+      "location": "Online event",
       "sources": [
         {
           "group": "philosophy-therapy",
           "url": "https://www.meetup.com/philosophy-therapy/events/316326193/"
         }
       ],
-      "image": ""
+      "image": "https://secure.meetupstatic.com/photos/event/6/b/9/0/600_535887536.jpeg"
     },
     {
       "id": "event_316326235@meetup.com",
@@ -225,16 +135,16 @@
       "end": "2026-11-10T20:30:00-05:00",
       "all_day": false,
       "tz": "America/New_York",
-      "summary": "You've told this story before. Same details, same order, same conclusion.",
-      "description": "You've told this story before. Same details, same order, same conclusion.",
-      "location": "",
+      "summary": "You've told this story before. Same details, same order, same conclusion. It's a good account. It explains a great deal. And it has been told so many times that it's stopped sounding like an account at all — it just sounds like what…",
+      "description": "You've told this story before. Same details, same order, same conclusion.\nIt's a good account. It explains a great deal. And it has been told so many times that it's stopped sounding like an account at all — it just sounds like what happened.\n\nWhy do so many thoughtful, self-aware, well-read people find that:\n• the story has a shape now, and details that don't fit it have quietly fallen away\n• they can tell it in two minutes, which took practice\n• one stretch of years has become the explanation for everything after it\n• someone who was there describes the same period and it sounds like a different life\n• the telling always arrives at the same conclusion about them\n• the story ends with who they are now, as though that were the only place it could end\n\nA Guide to Rational Living — the 1961 book that became the foundation of modern cognitive therapy — makes a distinction that this chapter turns on. What happened is fixed and not up for negotiation. What it meant is a claim, and claims can be examined. \"It broke me\" and \"it shaped me\" describe the same events with equal accuracy. But one of them is a verdict already delivered, and the other leaves the question of what happens next still open.\n\nWe'll get into:\n• the difference between the events and the account you've built from them\n• why the same history honestly supports more than one telling\n• what the Stoics said about the judgment we attach to an injury\n• whether telling it differently is honesty or just a nicer lie\n• what changes when the story stops ending where it currently ends\n\nNo reading required. We listen to the chapter together.\n\nThe plan for the night:\n• Quick intro from me — who I am, and where these ideas came from\n• We listen to Chapter 17 together (~20 min)\n• Small-group discussion (~20 min)\n• Q&A and op…",
+      "location": "Online event",
       "sources": [
         {
           "group": "philosophy-therapy",
           "url": "https://www.meetup.com/philosophy-therapy/events/316326235/"
         }
       ],
-      "image": ""
+      "image": "https://secure.meetupstatic.com/photos/event/6/b/a/b/600_535887563.jpeg"
     },
     {
       "id": "event_316326250@meetup.com",
@@ -243,17 +153,17 @@
       "end": "2026-11-17T20:30:00-05:00",
       "all_day": false,
       "tz": "America/New_York",
-      "summary": "Some of it is just bad. It isn't a lesson, it isn't a test.",
-      "description": "Some of it is just bad. It isn't a lesson, it isn't a test.",
-      "location": "",
+      "summary": "Some of it is just bad. It isn't a lesson, it isn't a test, and nobody is going to arrive and explain what it was for.",
+      "description": "Some of it is just bad. It isn't a lesson, it isn't a test, and nobody is going to arrive and explain what it was for.\n\nThis chapter starts there and never tries to talk you out of it. What it asks instead is a narrower question: given that it's true, how do you want to live alongside it?\n\nWhy do so many thoughtful, self-aware, well-read people find that:\n• they know life isn't fair, and still catch themselves protesting that it should be\n• the protest changes nothing and is very hard to put down\n• \"acceptance\" sounds like being asked to be fine with it\n• the people who seem to have made peace with something look either enlightened or defeated, and neither is appealing\n• the energy spent objecting to what happened was needed for what comes next\n• the demand that things be otherwise is so constant it doesn't register as a demand\n\nA Guide to Rational Living — the 1961 book that became the foundation of modern cognitive therapy — spends most of its length on beliefs you can dispute and change. This chapter deals with what's left over. Some things cannot be fixed, reframed, or dissolved by clearer thinking, and the question becomes what you do with what you cannot change. Accepting a fact is not approving of it. You can see something clearly, call it what it is, want it to be otherwise — and stop insisting that reality was supposed to be different.\n\nWe'll get into:\n• the difference between accepting something and being fine with it\n• why the demand persists long after we know it changes nothing\n• what the Stoics meant by wanting things to be as they are\n• whether acceptance is wisdom or surrender, and how you'd tell\n• what becomes available once the argument with reality is over\n\nNo reading required. We listen to the chapter together.\n\nThe plan for the night:\n• Quick intro…",
+      "location": "Online event",
       "sources": [
         {
           "group": "philosophy-therapy",
           "url": "https://www.meetup.com/philosophy-therapy/events/316326250/"
         }
       ],
-      "image": ""
+      "image": "https://secure.meetupstatic.com/photos/event/6/b/e/2/600_535887618.jpeg"
     }
   ],
-  "generated": "2026-10-15T02:02:17Z"
+  "generated": "2026-10-22T01:40:46Z"
 }
