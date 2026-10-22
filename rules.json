@@ -1,0 +1,6 @@
+{
+  "primary_group": [
+    { "title_contains": "stoicism 101", "group": "stoicism" },
+    { "title_contains": "controlling your own emotional destiny", "group": "philosophy-therapy" }
+  ]
+}

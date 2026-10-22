@@ -1,0 +1,259 @@
+{
+  "groups": [
+    {
+      "slug": "stoicism",
+      "name": "Stoic Philosophy Practice Group",
+      "url": "https://www.meetup.com/stoicism/",
+      "color": "#b5522f"
+    },
+    {
+      "slug": "philosophy-therapy",
+      "name": "Philosophy + Therapy",
+      "url": "https://www.meetup.com/philosophy-therapy/",
+      "color": "#3f7d6b"
+    },
+    {
+      "slug": "cambridgeplatonists",
+      "name": "The Cambridge Platonists",
+      "url": "https://www.meetup.com/cambridgeplatonists/",
+      "color": "#4a5aa8"
+    }
+  ],
+  "events": [
+    {
+      "id": "event_316756929@meetup.com",
+      "title": "Stoicism 101: Week 6 - Self-Control",
+      "start": "2026-10-15T19:30:00-04:00",
+      "end": "2026-10-15T20:30:00-04:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.",
+      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.\n\nHere's the video: https://youtu.be/G1nM9UCJCIs?si=abc&t=6203\n\n\"There is no such thing as good or bad fortune for the individual; we live in common.\" - Seneca",
+      "location": "",
+      "sources": [
+        {
+          "group": "stoicism",
+          "url": "https://www.meetup.com/stoicism/events/316756929/"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "id": "event_316657466@meetup.com",
+      "title": "Reading Plotinus with Hadot: Chapter 7 - Solitude",
+      "start": "2026-10-16T20:00:00-04:00",
+      "end": "2026-10-16T22:00:00-04:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "Plotinus is one of the strangest and most rewarding thinkers in the Western tradition.",
+      "description": "Plotinus is one of the strangest and most rewarding thinkers in the Western tradition.\n\nFormat\n• We listen to the chapter together\n• Open discussion follows",
+      "location": "Online event",
+      "sources": [
+        {
+          "group": "cambridgeplatonists",
+          "url": "https://www.meetup.com/cambridgeplatonists/events/316657466/"
+        }
+      ],
+      "image": "https://secure.meetupstatic.com/photos/event/3/c/9/7/600_535095511.jpeg?a=1&b=2"
+    },
+    {
+      "id": "event_316938275@meetup.com",
+      "title": "Sunday Stoa #134",
+      "start": "2026-10-18T16:00:00-04:00",
+      "end": "2026-10-18T19:00:00-04:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "If you're interested in going deeper, join us for Sunday Stoa.",
+      "description": "If you're interested in going deeper, join us for Sunday Stoa.\n\nWe begin at 4:00 PM (ET) with breath meditation.\n• 4:30 PM: introductions\n• 5:00 PM: readings and discussion\n\nCome for the whole thing.",
+      "location": "Online event",
+      "sources": [
+        {
+          "group": "stoicism",
+          "url": "https://www.meetup.com/stoicism/events/316938275/"
+        }
+      ],
+      "image": "https://secure.meetupstatic.com/photos/event/b/f/6/9/600_533269001.jpeg"
+    },
+    {
+      "id": "event_316756945@meetup.com",
+      "title": "Stoicism 101: Week 12 - How to Practice Stoicism",
+      "start": "2026-10-19T19:30:00-04:00",
+      "end": "2026-10-19T20:30:00-04:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.",
+      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.\n\nHere's the video: https://youtu.be/G1nM9UCJCIs?si=abc&t=6203\n\n\"There is no such thing as good or bad fortune for the individual; we live in common.\" - Seneca",
+      "location": "",
+      "sources": [
+        {
+          "group": "stoicism",
+          "url": "https://www.meetup.com/stoicism/events/316756945/"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "id": "event_316959964@meetup.com",
+      "title": "Controlling Your Own Emotional Destiny",
+      "start": "2026-10-20T19:30:00-04:00",
+      "end": "2026-10-20T20:30:00-04:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "\"They made me feel like an idiot.\" We say things like this constantly, and almost never notice the claim buried in them.",
+      "description": "\"They made me feel like an idiot.\"\nWe say things like this constantly, and almost never notice the claim buried in them.",
+      "location": "",
+      "sources": [
+        {
+          "group": "philosophy-therapy",
+          "url": "https://www.meetup.com/philosophy-therapy/events/316326073/"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "id": "event_316757000@meetup.com",
+      "title": "Stoicism 101: Week 7 - Anger",
+      "start": "2026-10-22T19:30:00-04:00",
+      "end": "2026-10-22T20:30:00-04:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.",
+      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.\n\nHere's the video: https://youtu.be/G1nM9UCJCIs?si=abc&t=6203\n\n\"There is no such thing as good or bad fortune for the individual; we live in common.\" - Seneca",
+      "location": "",
+      "sources": [
+        {
+          "group": "stoicism",
+          "url": "https://www.meetup.com/stoicism/events/316757000/"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "id": "event_316960049@meetup.com",
+      "title": "Sunday Stoa #135",
+      "start": "2026-10-25T16:00:00-04:00",
+      "end": "2026-10-25T19:00:00-04:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "If you're interested in going deeper, join us for Sunday Stoa.",
+      "description": "If you're interested in going deeper, join us for Sunday Stoa.\n\nWe begin at 4:00 PM (ET) with breath meditation.\n• 4:30 PM: introductions\n• 5:00 PM: readings and discussion\n\nCome for the whole thing.",
+      "location": "",
+      "sources": [
+        {
+          "group": "stoicism",
+          "url": "https://www.meetup.com/stoicism/events/316960049/"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "id": "event_316960102@meetup.com",
+      "title": "Stoicism 101: Week 1 - What is Stoicism?",
+      "start": "2026-10-26T19:30:00-04:00",
+      "end": "2026-10-26T20:30:00-04:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.",
+      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.\n\nHere's the video: https://youtu.be/G1nM9UCJCIs?si=abc&t=6203\n\n\"There is no such thing as good or bad fortune for the individual; we live in common.\" - Seneca",
+      "location": "",
+      "sources": [
+        {
+          "group": "stoicism",
+          "url": "https://www.meetup.com/stoicism/events/316960102/"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "id": "event_316326094@meetup.com",
+      "title": "Conquering Anxiety and Panic",
+      "start": "2026-10-27T19:30:00-04:00",
+      "end": "2026-10-27T20:30:00-04:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "Your heart is going. Your chest is tight. Something is definitely wrong. Both of those are true right up until the last three words.",
+      "description": "Your heart is going. Your chest is tight. Something is definitely wrong.\nBoth of those are true right up until the last three words.",
+      "location": "",
+      "sources": [
+        {
+          "group": "philosophy-therapy",
+          "url": "https://www.meetup.com/philosophy-therapy/events/316326094/"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "id": "event_316960128@meetup.com",
+      "title": "Stoicism 101: Week 8 - The Right Way to Give",
+      "start": "2026-10-29T19:30:00-04:00",
+      "end": "2026-10-29T20:30:00-04:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.",
+      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off with a short presentation, then break into smaller groups.\n\nHere's the video: https://youtu.be/G1nM9UCJCIs?si=abc&t=6203\n\n\"There is no such thing as good or bad fortune for the individual; we live in common.\" - Seneca",
+      "location": "",
+      "sources": [
+        {
+          "group": "stoicism",
+          "url": "https://www.meetup.com/stoicism/events/316960128/"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "id": "event_316326193@meetup.com",
+      "title": "Acquiring Self-Discipline",
+      "start": "2026-11-03T19:30:00-05:00",
+      "end": "2026-11-03T20:30:00-05:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "You know exactly what you should be doing.",
+      "description": "You know exactly what you should be doing.\n\nNot in general, the specific thing.",
+      "location": "",
+      "sources": [
+        {
+          "group": "philosophy-therapy",
+          "url": "https://www.meetup.com/philosophy-therapy/events/316326193/"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "id": "event_316326235@meetup.com",
+      "title": "Rewriting Your Personal History",
+      "start": "2026-11-10T19:30:00-05:00",
+      "end": "2026-11-10T20:30:00-05:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "You've told this story before. Same details, same order, same conclusion.",
+      "description": "You've told this story before. Same details, same order, same conclusion.",
+      "location": "",
+      "sources": [
+        {
+          "group": "philosophy-therapy",
+          "url": "https://www.meetup.com/philosophy-therapy/events/316326235/"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "id": "event_316326250@meetup.com",
+      "title": "Accepting and Coping with the Grim Facts of Life",
+      "start": "2026-11-17T19:30:00-05:00",
+      "end": "2026-11-17T20:30:00-05:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "Some of it is just bad. It isn't a lesson, it isn't a test.",
+      "description": "Some of it is just bad. It isn't a lesson, it isn't a test.",
+      "location": "",
+      "sources": [
+        {
+          "group": "philosophy-therapy",
+          "url": "https://www.meetup.com/philosophy-therapy/events/316326250/"
+        }
+      ],
+      "image": ""
+    }
+  ],
+  "generated": "2026-10-15T02:02:17Z"
+}

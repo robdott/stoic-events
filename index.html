@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Upcoming Events</title>
+<style>
+  :root {
+    --bg: #f7f4ee; --surface: #ffffff; --ink: #231f1a; --muted: #6b645a;
+    --line: #e4ded3; --accent: #231f1a; --radius: 12px;
+    --serif: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1c1a17; --surface: #25221e; --ink: #f1ece3; --muted: #a39b8e;
+      --line: #38342d; --accent: #f1ece3;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #1c1a17; --surface: #25221e; --ink: #f1ece3; --muted: #a39b8e;
+    --line: #38342d; --accent: #f1ece3;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); line-height: 1.5; }
+  body.embed { background: transparent; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 24px 16px 40px; }
+  h1 { font-family: var(--serif); font-weight: 600; font-size: 1.9rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 20px; font-size: .95rem; }
+  body.embed h1, body.embed .sub { display: none; }
+
+  .bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+  .chips, .views { display: flex; flex-wrap: wrap; gap: 8px; }
+  button { font: inherit; color: inherit; cursor: pointer; }
+  .chip-btn {
+    display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px;
+    border: 1px solid var(--line); background: var(--surface); font-size: .9rem;
+  }
+  .chip-btn .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--c, var(--muted)); }
+  .chip-btn .n { color: var(--muted); font-size: .8rem; }
+  .chip-btn[aria-pressed="true"] { border-color: var(--c, var(--accent)); box-shadow: inset 0 0 0 1px var(--c, var(--accent)); font-weight: 600; }
+  .views { border: 1px solid var(--line); border-radius: 8px; padding: 3px; background: var(--surface); gap: 2px; }
+  .views button { border: 0; background: none; padding: 5px 12px; border-radius: 6px; font-size: .9rem; }
+  .views button[aria-pressed="true"] { background: var(--accent); color: var(--bg); }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .day { font-family: var(--serif); font-size: 1.1rem; margin: 26px 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--line); }
+  .day:first-child { margin-top: 0; }
+  .card {
+    display: block; width: 100%; text-align: left; background: var(--surface); border: 1px solid var(--line);
+    border-left: 4px solid var(--c, var(--accent)); border-radius: var(--radius); padding: 14px 16px; margin-bottom: 10px;
+  }
+  .card:hover { border-color: var(--c, var(--accent)); }
+  .time { color: var(--muted); font-size: .85rem; font-variant-numeric: tabular-nums; }
+  .title { font-family: var(--serif); font-size: 1.15rem; font-weight: 600; margin: 2px 0 6px; }
+  .blurb { color: var(--muted); font-size: .92rem; margin: 6px 0 0; }
+  .pills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+  .pill { font-size: .75rem; padding: 2px 9px; border-radius: 999px; color: var(--c); border: 1px solid var(--c); }
+  .card.has-img { display: flex; gap: 14px; align-items: flex-start; }
+  .card .c-body { flex: 1; min-width: 0; }
+  .thumb { width: 132px; height: 88px; object-fit: cover; border-radius: 8px; flex: none; order: 2; background: var(--line); }
+  .grid .thumb { order: -1; width: 100%; height: 150px; margin-bottom: 10px; }
+  .grid .card.has-img { flex-direction: column; gap: 0; align-items: stretch; }
+  .d-img { width: calc(100% + 44px); margin: -22px -22px 14px; height: 220px; object-fit: cover; display: block; background: var(--line); }
+  .cohost { font-size: .85rem; color: var(--muted); margin: 0 0 6px; }
+  .cohost a { color: inherit; }
+  @media (max-width: 640px) { .thumb { width: 88px; height: 64px; } }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+  .grid .card { margin: 0; display: flex; flex-direction: column; }
+  .grid .gdate { font-size: .8rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; color: var(--c); }
+
+  .month-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+  .month-head h2 { font-family: var(--serif); font-size: 1.3rem; margin: 0; }
+  .month-head button { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 4px 12px; }
+  .cal { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); border-top: 1px solid var(--line); border-left: 1px solid var(--line); background: var(--surface); }
+  .cal > div { border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); min-height: 92px; padding: 4px; min-width: 0; }
+  .cal .dow { min-height: 0; text-align: center; font-size: .75rem; color: var(--muted); padding: 6px 0; background: var(--bg); }
+  .cal .num { font-size: .8rem; color: var(--muted); }
+  .cal .off { background: var(--bg); opacity: .65; }
+  .cal .today .num { background: var(--accent); color: var(--bg); border-radius: 999px; padding: 0 6px; display: inline-block; }
+  .cal .ev {
+    display: block; width: 100%; text-align: left; margin-top: 3px; padding: 2px 5px; font-size: .72rem; line-height: 1.25;
+    border: 0; border-left: 3px solid var(--c); border-radius: 4px; background: color-mix(in srgb, var(--c) 14%, transparent);
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  @media (max-width: 640px) { .cal > div { min-height: 64px; } .cal .ev { font-size: .65rem; padding: 1px 3px; } }
+
+  .empty { text-align: center; color: var(--muted); padding: 40px 0; }
+  dialog { width: min(640px, calc(100% - 24px)); max-height: 86vh; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); color: var(--ink); padding: 0; }
+  dialog::backdrop { background: rgba(0,0,0,.45); }
+  .d-in { padding: 22px 22px 18px; overflow: auto; max-height: 86vh; }
+  .d-in h2 { font-family: var(--serif); margin: 6px 0 4px; font-size: 1.4rem; }
+  .d-body { white-space: pre-wrap; font-size: .95rem; margin: 14px 0; }
+  .d-body a { color: inherit; text-decoration: underline; }
+  .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+  .btn { display: inline-block; padding: 8px 14px; border-radius: 8px; background: var(--c, var(--accent)); color: #fff; text-decoration: none; font-size: .9rem; }
+  .btn.ghost { background: none; color: var(--ink); border: 1px solid var(--line); cursor: pointer; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Upcoming Events</h1>
+  <p class="sub">Philosophy meetups, all in one place.</p>
+  <div class="bar">
+    <div class="chips" id="chips" role="group" aria-label="Filter by group"></div>
+    <div class="views" id="views" role="group" aria-label="View">
+      <button data-v="list" aria-pressed="true">List</button>
+      <button data-v="grid" aria-pressed="false">Grid</button>
+      <button data-v="month" aria-pressed="false">Month</button>
+    </div>
+  </div>
+  <main id="out" aria-live="polite"></main>
+</div>
+<dialog id="dlg"><div class="d-in" id="dlg-in"></div></dialog>
+
+<script>
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safeUrl = u => /^https:\/\//i.test(u || '') ? u : '#';
+const linkify = html => html.replace(/(https?:\/\/[^\s<]+[^\s<.,;:!?)\]'"])/g,
+  '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>');
+
+const params = new URLSearchParams(location.search);
+if (params.get('embed') === '1') document.body.classList.add('embed');
+if (params.get('theme')) document.documentElement.dataset.theme = params.get('theme');
+
+const state = {
+  view: ['list','grid','month'].includes(params.get('view')) ? params.get('view') : 'list',
+  active: new Set((params.get('group') || '').split(',').filter(Boolean)),
+  month: null, events: [], groups: {}
+};
+
+const $ = id => document.getElementById(id);
+const fmt = (opts, ev, d) => new Intl.DateTimeFormat('en-US', { timeZone: ev.tz, ...opts }).format(d);
+const dateKey = ev => new Date(ev.t).toLocaleDateString('en-CA', { timeZone: ev.tz });
+
+function timeText(ev) {
+  if (ev.all_day) return 'All day';
+  const s = fmt({ hour: 'numeric', minute: '2-digit' }, ev, new Date(ev.t));
+  const e = fmt({ hour: 'numeric', minute: '2-digit', timeZoneName: 'short' }, ev, new Date(ev.e));
+  return `${s} – ${e}`;
+}
+const color = ev => state.groups[ev.sources[0].group]?.color || '#555';
+// Only the primary (first) group is shown as the event's group; co-hosts are credited in the popup.
+const pills = ev => {
+  const g = state.groups[ev.sources[0].group];
+  return `<div class="pills"><span class="pill" style="--c:${esc(g?.color)}">${esc(g?.name || ev.sources[0].group)}</span></div>`;
+};
+const thumb = ev => ev.image ? `<img class="thumb" src="${esc(safeUrl(ev.image))}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">` : '';
+const cardInner = (ev, extra = '') => `${thumb(ev)}<div class="c-body">${extra}<div class="time">${esc(timeText(ev))}${ev.location ? ' · ' + esc(ev.location) : ''}</div><div class="title">${esc(ev.title)}</div>${pills(ev)}${ev.summary ? `<p class="blurb">${esc(ev.summary)}</p>` : ''}</div>`;
+
+function visible() {
+  return state.events.filter(ev => !state.active.size || ev.sources.some(s => state.active.has(s.group)));
+}
+
+function renderChips() {
+  const all = Object.values(state.groups);
+  $('chips').innerHTML =
+    `<button class="chip-btn" data-g="" aria-pressed="${!state.active.size}"><span>All groups</span><span class="n">${state.events.length}</span></button>` +
+    all.map(g => {
+      const n = state.events.filter(e => e.sources.some(s => s.group === g.slug)).length;
+      return `<button class="chip-btn" data-g="${esc(g.slug)}" style="--c:${esc(g.color)}" aria-pressed="${state.active.has(g.slug)}">
+        <span class="dot"></span><span>${esc(g.name)}</span><span class="n">${n}</span></button>`;
+    }).join('');
+}
+
+function renderList(list) {
+  let last = '', html = '';
+  for (const ev of list) {
+    const k = dateKey(ev);
+    if (k !== last) { html += `<h2 class="day">${esc(fmt({ weekday: 'long', month: 'long', day: 'numeric' }, ev, new Date(ev.t)))}</h2>`; last = k; }
+    html += `<button class="card${ev.image ? ' has-img' : ''}" data-id="${esc(ev.id)}" style="--c:${esc(color(ev))}">${cardInner(ev)}</button>`;
+  }
+  return html;
+}
+
+function renderGrid(list) {
+  return '<div class="grid">' + list.map(ev => {
+    const d = `<div class="gdate">${esc(fmt({ weekday: 'short', month: 'short', day: 'numeric' }, ev, new Date(ev.t)))}</div>`;
+    return `<button class="card${ev.image ? ' has-img' : ''}" data-id="${esc(ev.id)}" style="--c:${esc(color(ev))}">${cardInner(ev, d)}</button>`;
+  }).join('') + '</div>';
+}
+
+function renderMonth(list) {
+  if (!state.month) {
+    const first = list[0] ? new Date(list[0].t) : new Date();
+    state.month = { y: first.getFullYear(), m: first.getMonth() };
+  }
+  const { y, m } = state.month;
+  const byDay = {};
+  list.forEach(ev => (byDay[dateKey(ev)] ||= []).push(ev));
+  const startDow = new Date(Date.UTC(y, m, 1)).getUTCDay();
+  const todayKey = new Date().toLocaleDateString('en-CA');
+  let cells = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].map(d => `<div class="dow">${d}</div>`).join('');
+  for (let i = 0; i < 42; i++) {
+    const d = new Date(Date.UTC(y, m, 1 - startDow + i));
+    if (i >= 35 && d.getUTCMonth() !== m) break;
+    const key = d.toISOString().slice(0, 10);
+    const evs = (byDay[key] || []).map(ev =>
+      `<button class="ev" data-id="${esc(ev.id)}" style="--c:${esc(color(ev))}" title="${esc(ev.title)}">${ev.all_day ? '' : esc(fmt({ hour: 'numeric', minute: '2-digit' }, ev, new Date(ev.t)).replace(' ', '').toLowerCase()) + ' '}${esc(ev.title)}</button>`).join('');
+    cells += `<div class="${d.getUTCMonth() !== m ? 'off' : ''} ${key === todayKey ? 'today' : ''}"><span class="num">${d.getUTCDate()}</span>${evs}</div>`;
+  }
+  const label = new Intl.DateTimeFormat('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(Date.UTC(y, m, 1)));
+  return `<div class="month-head"><button data-nav="-1" aria-label="Previous month">‹</button><h2>${label}</h2><button data-nav="1" aria-label="Next month">›</button></div><div class="cal">${cells}</div>`;
+}
+
+function render() {
+  renderChips();
+  document.querySelectorAll('#views button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === state.view));
+  const list = visible();
+  $('out').innerHTML = !list.length && state.view !== 'month'
+    ? '<p class="empty">No upcoming events right now. Check back soon.</p>'
+    : state.view === 'list' ? renderList(list) : state.view === 'grid' ? renderGrid(list) : renderMonth(list);
+  notifyHeight();
+}
+
+function openEvent(id) {
+  const ev = state.events.find(e => e.id === id); if (!ev) return;
+  const date = fmt({ weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' }, ev, new Date(ev.t));
+  const [main, ...others] = ev.sources;
+  const btns = `<a class="btn" style="--c:${esc(color(ev))}" href="${esc(safeUrl(main.url))}" target="_blank" rel="noopener noreferrer">RSVP on Meetup</a>`;
+  const cohost = others.length ? `<p class="cohost">Co-hosted with ${others.map(s => {
+    const g = state.groups[s.group];
+    return `<a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(g?.name || s.group)}</a>`;
+  }).join(', ')}</p>` : '';
+  $('dlg-in').innerHTML = `${ev.image ? `<img class="d-img" src="${esc(safeUrl(ev.image))}" alt="" referrerpolicy="no-referrer" onerror="this.remove()">` : ''}${pills(ev)}<h2>${esc(ev.title)}</h2>${cohost}
+    <div class="time">${esc(date)} · ${esc(timeText(ev))}${ev.location ? ' · ' + esc(ev.location) : ''}</div>
+    <div class="d-body">${linkify(esc(ev.description || ev.summary))}</div>
+    <div class="actions">${btns}<button class="btn ghost" id="close">Close</button></div>`;
+  $('close').onclick = () => $('dlg').close();
+  $('dlg').showModal();
+}
+
+document.addEventListener('click', e => {
+  const chip = e.target.closest('.chip-btn');
+  if (chip) {
+    const g = chip.dataset.g;
+    if (!g) state.active.clear();
+    else state.active.has(g) ? state.active.delete(g) : state.active.add(g);
+    state.month = null; return render();
+  }
+  const v = e.target.closest('#views button'); if (v) { state.view = v.dataset.v; return render(); }
+  const nav = e.target.closest('[data-nav]');
+  if (nav) { const d = new Date(state.month.y, state.month.m + Number(nav.dataset.nav), 1); state.month = { y: d.getFullYear(), m: d.getMonth() }; return render(); }
+  const card = e.target.closest('[data-id]'); if (card) return openEvent(card.dataset.id);
+  if (e.target === $('dlg')) $('dlg').close();
+});
+
+function notifyHeight() {
+  if (window.parent !== window) parent.postMessage({ type: 'events-height', height: document.documentElement.scrollHeight }, '*');
+}
+new ResizeObserver(notifyHeight).observe(document.body);
+
+fetch('events.json', { cache: 'no-cache' }).then(r => r.json()).then(data => {
+  data.groups.forEach(g => state.groups[g.slug] = g);
+  state.events = data.events.map(ev => ({ ...ev, t: Date.parse(ev.start), e: Date.parse(ev.end) }))
+    .filter(ev => ev.e >= Date.now()).sort((a, b) => a.t - b.t);
+  render();
+}).catch(() => { $('out').innerHTML = '<p class="empty">Couldn’t load events right now.</p>'; });
+</script>
+</body>
+</html>
