@@ -151,7 +151,10 @@ def build_events(ics_text, group):
             end, _, _ = to_dt(*ev["DTEND"])
         else:
             end = start + (timedelta(days=1) if all_day else timedelta(hours=1))
-        desc = clean_description(unescape(ev.get("DESCRIPTION", ({}, ""))[1]), group["name"])
+        raw_desc = unescape(ev.get("DESCRIPTION", ({}, ""))[1])
+        # The listing that says "Cosponsored with <other group>" is the secondary copy of a shared event.
+        is_cosponsor_copy = bool(re.search(r"cosponsored with", raw_desc, re.I))
+        desc = clean_description(raw_desc, group["name"])
         first_para = desc.split("\n\n")[0] if desc else ""
         out.append(
             {
@@ -164,7 +167,8 @@ def build_events(ics_text, group):
                 "summary": shorten(first_para or desc, SUMMARY_CHARS),
                 "description": desc[:DESCRIPTION_CHARS].rstrip() + ("…" if len(desc) > DESCRIPTION_CHARS else ""),
                 "location": unescape(ev.get("LOCATION", ({}, ""))[1]).strip(),
-                "sources": [{"group": group["slug"], "url": ev.get("URL", ({}, ""))[1].strip()}],
+                "sources": [{"group": group["slug"], "url": ev.get("URL", ({}, ""))[1].strip(),
+                             "cosponsor": is_cosponsor_copy}],
             }
         )
     return out
@@ -201,12 +205,18 @@ def load_rules():
 
 
 def apply_primary(ev, rules):
-    """Co-hosted events: put the preferred group first (it sets the tag, color and main RSVP link)."""
+    """Shared events: put the owning group first (it sets the tag, color and RSVP link).
+
+    1. A matching rule in rules.json wins (manual override).
+    2. Otherwise the copy that does NOT say "Cosponsored with ..." is the owner.
+    3. If that doesn't settle it, the group listed first in groups.json is used.
+    """
     title = ev["title"].lower()
     for rule in rules:
         if rule["title_contains"].lower() in title:
             ev["sources"].sort(key=lambda s: s["group"] != rule["group"])  # stable: preferred first
             return
+    ev["sources"].sort(key=lambda s: bool(s.get("cosponsor")))  # stable: non-cosponsor copy first
 
 
 def og_image(page):
@@ -224,7 +234,10 @@ def enrich(events, previous, from_dir):
     prev_by_id = {e["id"]: e for e in previous}
     for ev in events:
         old = prev_by_id.get(ev["id"], {})
-        ev["image"] = old.get("image", "")
+        # Reuse a saved photo only if it came from the group that currently owns the event.
+        primary_url = ev["sources"][0]["url"]
+        ev["image"] = old.get("image", "") if old.get("image_from") == primary_url else ""
+        ev["image_from"] = primary_url if ev["image"] else ""
         if not ev["location"] and old.get("location"):
             ev["location"] = old["location"]
         if ev["image"]:
@@ -245,6 +258,7 @@ def enrich(events, previous, from_dir):
             img = og_image(page)
             if img:
                 ev["image"] = img
+                ev["image_from"] = src["url"]
                 break
 
 
@@ -305,6 +319,7 @@ def main():
         apply_primary(ev, rules)
         # Co-hosted copies exist only to get extra eyes on Meetup; show each event once, under its own group.
         ev["sources"] = ev["sources"][:1]
+        ev["sources"][0].pop("cosponsor", None)
     enrich(events, previous, args.from_dir)
 
     payload = {"groups": groups, "events": events}
