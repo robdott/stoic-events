@@ -81,9 +81,13 @@
   .cal .ev {
     display: block; width: 100%; text-align: left; margin-top: 3px; padding: 2px 5px; font-size: .72rem; line-height: 1.25;
     border: 0; border-left: 3px solid var(--c); border-radius: 4px; background: color-mix(in srgb, var(--c) 14%, transparent);
-    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+    white-space: normal; overflow-wrap: anywhere;
   }
-  @media (max-width: 640px) { .cal > div { min-height: 64px; } .cal .ev { font-size: .65rem; padding: 1px 3px; } }
+  @media (max-width: 640px) {
+    .cal > div { min-height: 64px; }
+    .cal .ev { font-size: .65rem; padding: 1px 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .cal .ev .t { display: none; }
+  }
 
   .empty { text-align: center; color: var(--muted); padding: 40px 0; }
   dialog { width: min(640px, calc(100% - 24px)); max-height: 86vh; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); color: var(--ink); padding: 0; overflow: hidden; }
@@ -199,7 +203,7 @@ function renderMonth(list) {
     if (i >= 35 && d.getUTCMonth() !== m) break;
     const key = d.toISOString().slice(0, 10);
     const evs = (byDay[key] || []).map(ev =>
-      `<button class="ev" data-id="${esc(ev.id)}" style="--c:${esc(color(ev))}" title="${esc(ev.title)}">${ev.all_day ? '' : esc(fmt({ hour: 'numeric', minute: '2-digit' }, ev, new Date(ev.t)).replace(' ', '').toLowerCase()) + ' '}${esc(ev.title)}</button>`).join('');
+      `<button class="ev" data-id="${esc(ev.id)}" style="--c:${esc(color(ev))}" title="${esc(ev.title)}">${ev.all_day ? '' : '<span class="t">' + esc(fmt({ hour: 'numeric', minute: '2-digit' }, ev, new Date(ev.t)).replace(' ', '').toLowerCase()) + ' </span>'}${esc(ev.title)}</button>`).join('');
     cells += `<div class="${d.getUTCMonth() !== m ? 'off' : ''} ${key === todayKey ? 'today' : ''}"><span class="num">${d.getUTCDate()}</span>${evs}</div>`;
   }
   const label = new Intl.DateTimeFormat('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(Date.UTC(y, m, 1)));
