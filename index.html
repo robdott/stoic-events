@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Upcoming Events</title>
+<title>Philosophy as a Way of Life</title>
 <style>
   :root {
     --bg: #f7f4ee; --surface: #ffffff; --ink: #231f1a; --muted: #6b645a;
@@ -86,10 +86,13 @@
   @media (max-width: 640px) { .cal > div { min-height: 64px; } .cal .ev { font-size: .65rem; padding: 1px 3px; } }
 
   .empty { text-align: center; color: var(--muted); padding: 40px 0; }
-  dialog { width: min(640px, calc(100% - 24px)); max-height: 86vh; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); color: var(--ink); padding: 0; }
+  dialog { width: min(640px, calc(100% - 24px)); max-height: 86vh; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); color: var(--ink); padding: 0; overflow: hidden; }
   dialog::backdrop { background: rgba(0,0,0,.45); }
-  .d-in { padding: 22px 22px 18px; overflow: auto; max-height: 86vh; }
-  .d-in h2 { font-family: var(--serif); margin: 6px 0 4px; font-size: 1.4rem; }
+  .d-in { padding: 22px 22px 18px; overflow: auto; max-height: calc(86vh - 2px); }
+  .d-in h2 { font-family: var(--serif); margin: 6px 0 4px; font-size: 1.4rem; padding-right: 36px; }
+  .x { position: absolute; top: 12px; right: 22px; z-index: 2; width: 34px; height: 34px; border: 0; border-radius: 50%;
+       background: rgba(0,0,0,.6); color: #fff; font-size: 22px; line-height: 1; display: grid; place-items: center; }
+  .x:hover { background: rgba(0,0,0,.8); }
   .d-body { white-space: pre-wrap; font-size: .95rem; margin: 14px 0; }
   .d-body a { color: inherit; text-decoration: underline; }
   .actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
@@ -99,19 +102,19 @@
 </head>
 <body>
 <div class="wrap">
-  <h1>Upcoming Events</h1>
-  <p class="sub">Philosophy meetups, all in one place.</p>
+  <h1>Philosophy as a Way of Life</h1>
+  <p class="sub">Check out all our upcoming events.</p>
   <div class="bar">
     <div class="chips" id="chips" role="group" aria-label="Filter by group"></div>
     <div class="views" id="views" role="group" aria-label="View">
-      <button data-v="list" aria-pressed="true">List</button>
-      <button data-v="grid" aria-pressed="false">Grid</button>
+      <button data-v="grid" aria-pressed="true">Grid</button>
+      <button data-v="list" aria-pressed="false">List</button>
       <button data-v="month" aria-pressed="false">Month</button>
     </div>
   </div>
   <main id="out" aria-live="polite"></main>
 </div>
-<dialog id="dlg"><div class="d-in" id="dlg-in"></div></dialog>
+<dialog id="dlg"><button class="x" id="x" type="button" aria-label="Close">&times;</button><div class="d-in" id="dlg-in"></div></dialog>
 
 <script>
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -124,7 +127,7 @@ if (params.get('embed') === '1') document.body.classList.add('embed');
 if (params.get('theme')) document.documentElement.dataset.theme = params.get('theme');
 
 const state = {
-  view: ['list','grid','month'].includes(params.get('view')) ? params.get('view') : 'list',
+  view: ['list','grid','month'].includes(params.get('view')) ? params.get('view') : 'grid',
   active: new Set((params.get('group') || '').split(',').filter(Boolean)),
   month: null, events: [], groups: {}
 };
@@ -229,6 +232,8 @@ function openEvent(id) {
   $('close').onclick = () => $('dlg').close();
   $('dlg').showModal();
 }
+
+$('x').onclick = () => $('dlg').close();
 
 document.addEventListener('click', e => {
   const chip = e.target.closest('.chip-btn');
