@@ -36,7 +36,8 @@
           "url": "https://www.meetup.com/stoicism/events/316757000/"
         }
       ],
-      "image": "https://secure.meetupstatic.com/photos/event/5/e/1/2/600_535224082.jpeg"
+      "image": "https://secure.meetupstatic.com/photos/event/5/e/1/2/600_535224082.jpeg",
+      "image_from": "https://www.meetup.com/stoicism/events/316757000/"
     },
     {
       "id": "event_316960049@meetup.com",
@@ -54,7 +55,8 @@
           "url": "https://www.meetup.com/stoicism/events/316960049/"
         }
       ],
-      "image": "https://secure.meetupstatic.com/photos/event/b/f/6/9/600_533269001.jpeg"
+      "image": "https://secure.meetupstatic.com/photos/event/b/f/6/9/600_533269001.jpeg",
+      "image_from": "https://www.meetup.com/stoicism/events/316960049/"
     },
     {
       "id": "event_316960102@meetup.com",
@@ -72,7 +74,8 @@
           "url": "https://www.meetup.com/stoicism/events/316960102/"
         }
       ],
-      "image": "https://secure.meetupstatic.com/photos/event/c/2/f/0/600_535309904.jpeg"
+      "image": "https://secure.meetupstatic.com/photos/event/c/2/f/0/600_535309904.jpeg",
+      "image_from": "https://www.meetup.com/stoicism/events/316960102/"
     },
     {
       "id": "event_317064805@meetup.com",
@@ -86,11 +89,12 @@
       "location": "Online event",
       "sources": [
         {
-          "group": "stoicism",
-          "url": "https://www.meetup.com/stoicism/events/317064805/"
+          "group": "philosophy-therapy",
+          "url": "https://www.meetup.com/philosophy-therapy/events/316326094/"
         }
       ],
-      "image": "https://secure.meetupstatic.com/photos/event/4/8/3/6/600_536718486.jpeg"
+      "image": "https://secure.meetupstatic.com/photos/event/6/b/7/7/600_535887511.jpeg",
+      "image_from": "https://www.meetup.com/philosophy-therapy/events/316326094/"
     },
     {
       "id": "event_316960128@meetup.com",
@@ -108,7 +112,8 @@
           "url": "https://www.meetup.com/stoicism/events/316960128/"
         }
       ],
-      "image": "https://secure.meetupstatic.com/photos/event/c/3/5/4/600_535310004.jpeg"
+      "image": "https://secure.meetupstatic.com/photos/event/c/3/5/4/600_535310004.jpeg",
+      "image_from": "https://www.meetup.com/stoicism/events/316960128/"
     },
     {
       "id": "event_316326193@meetup.com",
@@ -126,7 +131,8 @@
           "url": "https://www.meetup.com/philosophy-therapy/events/316326193/"
         }
       ],
-      "image": "https://secure.meetupstatic.com/photos/event/6/b/9/0/600_535887536.jpeg"
+      "image": "https://secure.meetupstatic.com/photos/event/6/b/9/0/600_535887536.jpeg",
+      "image_from": "https://www.meetup.com/philosophy-therapy/events/316326193/"
     },
     {
       "id": "event_316326235@meetup.com",
@@ -144,7 +150,8 @@
           "url": "https://www.meetup.com/philosophy-therapy/events/316326235/"
         }
       ],
-      "image": "https://secure.meetupstatic.com/photos/event/6/b/a/b/600_535887563.jpeg"
+      "image": "https://secure.meetupstatic.com/photos/event/6/b/a/b/600_535887563.jpeg",
+      "image_from": "https://www.meetup.com/philosophy-therapy/events/316326235/"
     },
     {
       "id": "event_316326250@meetup.com",
@@ -162,8 +169,9 @@
           "url": "https://www.meetup.com/philosophy-therapy/events/316326250/"
         }
       ],
-      "image": "https://secure.meetupstatic.com/photos/event/6/b/e/2/600_535887618.jpeg"
+      "image": "https://secure.meetupstatic.com/photos/event/6/b/e/2/600_535887618.jpeg",
+      "image_from": "https://www.meetup.com/philosophy-therapy/events/316326250/"
     }
   ],
-  "generated": "2026-10-22T01:40:46Z"
+  "generated": "2026-10-22T02:32:28Z"
 }
