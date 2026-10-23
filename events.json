@@ -21,25 +21,6 @@
   ],
   "events": [
     {
-      "id": "event_316757000@meetup.com",
-      "title": "Stoicism 101: Week 7 - Anger",
-      "start": "2026-10-22T19:30:00-04:00",
-      "end": "2026-10-22T20:30:00-04:00",
-      "all_day": false,
-      "tz": "America/New_York",
-      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off the event with a short presentation exploring one of the core ideas of Stoicism, focusing on its real-world application with some practices drawn from the texts.…",
-      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off the event with a short presentation exploring one of the core ideas of Stoicism, focusing on its real-world application with some practices drawn from the texts. Following the presentation, we'll break into smaller groups for a lightly-facilitated discussion about the topic.\n\nThis week, we'll be discussing anger and how to master this most dangerous of passions. We'll examine why anger is a form of temporary madness, the process for preventing and subduing it, and how we can use our daily reflection journaling to bring this vice under our control.\n\nHere's the video we'll be watching: https://youtu.be/G1nM9UCJCIs?si=C_8QPw1yPWtsWcvu&t=7574\n\nAnd here's the text, along with the rest of the resources for the course: https://docs.google.com/document/d/1-6r2KFyv7f-vChnX-9eKovdFsQ6DYoc_CV5RZtJb9XA/edit?usp=sharing\n\nThanks so much for your interest, and please remember:\n\n\"There is no such thing as good or bad fortune for the individual; we live in common. And no one can live happily who has regard to himself alone and transforms everything into a question of his own utility; you must live for your neighbor, if you would live for yourself.\" - Seneca, Letters from a Stoic, Letter 48",
-      "location": "Online event",
-      "sources": [
-        {
-          "group": "stoicism",
-          "url": "https://www.meetup.com/stoicism/events/316757000/"
-        }
-      ],
-      "image": "https://secure.meetupstatic.com/photos/event/5/e/1/2/600_535224082.jpeg",
-      "image_from": "https://www.meetup.com/stoicism/events/316757000/"
-    },
-    {
       "id": "event_316960049@meetup.com",
       "title": "Sunday Stoa #135",
       "start": "2026-10-25T16:00:00-04:00",
@@ -173,5 +154,5 @@
       "image_from": "https://www.meetup.com/philosophy-therapy/events/316326250/"
     }
   ],
-  "generated": "2026-10-22T02:32:28Z"
+  "generated": "2026-10-23T01:07:03Z"
 }
