@@ -21,25 +21,6 @@
   ],
   "events": [
     {
-      "id": "event_316960049@meetup.com",
-      "title": "Sunday Stoa #135",
-      "start": "2026-10-25T16:00:00-04:00",
-      "end": "2026-10-25T19:00:00-04:00",
-      "all_day": false,
-      "tz": "America/New_York",
-      "summary": "If you're interested in going deeper than just the intro classes and exploring the community side of Stoicism, please join us for Sunday Stoa.",
-      "description": "If you're interested in going deeper than just the intro classes and exploring the community side of Stoicism, please join us for Sunday Stoa.\n\nWe begin at 4:00 PM (ET) with 10 minutes of Stoic breath meditation followed by 15 minutes of writing practice.\nAt 4:30 PM, we move into introductions and social time.\nAround 5:00 PM, we’ll listen to selections from the original Stoic texts and then discuss the ideas they present.\n\nThis week, we’ll be listening to Letters 50 and 51 from Seneca’s Letters from a Stoic: On our blindness and its cure, and On Baiae and morals.\n\nHere's the text and video if you’d like to check them out beforehand:\n\nLetter 50\nText: https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_50\nVideo: https://youtu.be/Ztg2-34UAC4\n\nLetter 51\nText: https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_51\nVideo: https://youtu.be/UF5Z3OqK2Zk\n\nCome for the whole thing or join us whenever it works best for you. See you Sunday!",
-      "location": "Online event",
-      "sources": [
-        {
-          "group": "stoicism",
-          "url": "https://www.meetup.com/stoicism/events/316960049/"
-        }
-      ],
-      "image": "https://secure.meetupstatic.com/photos/event/b/f/6/9/600_533269001.jpeg",
-      "image_from": "https://www.meetup.com/stoicism/events/316960049/"
-    },
-    {
       "id": "event_316960102@meetup.com",
       "title": "Stoicism 101: Week 1 - What is Stoicism?",
       "start": "2026-10-26T19:30:00-04:00",
@@ -154,5 +135,5 @@
       "image_from": "https://www.meetup.com/philosophy-therapy/events/316326250/"
     }
   ],
-  "generated": "2026-10-23T01:07:03Z"
+  "generated": "2026-10-26T01:14:22Z"
 }
