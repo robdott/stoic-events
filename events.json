@@ -21,25 +21,6 @@
   ],
   "events": [
     {
-      "id": "event_317064805@meetup.com",
-      "title": "Conquering Anxiety and Panic",
-      "start": "2026-10-27T19:30:00-04:00",
-      "end": "2026-10-27T20:30:00-04:00",
-      "all_day": false,
-      "tz": "America/New_York",
-      "summary": "Your heart is going. Your chest is tight. Something is definitely wrong. Both of those are true right up until the last three words.",
-      "description": "Your heart is going. Your chest is tight. Something is definitely wrong.\nBoth of those are true right up until the last three words.\n\nWhy do so many thoughtful, self-aware, well-read people find that:\n• the fear of the panic has become bigger than whatever started it\n• they scan themselves for early signs, which reliably produces early signs\n• knowing it's happened before and passed makes no difference while it's happening\n• they arrange their week around avoiding a feeling\n• the worst part is often the thought of it happening in front of someone\n• telling themselves to relax is about as effective as telling themselves to be taller\n\nA Guide to Rational Living — the 1961 book that became the foundation of modern cognitive therapy — separates the sensation from the verdict. A racing heart is a racing heart. It's adrenaline, and it's uncomfortable, and it is not evidence of anything. The panic is what gets added when the body's report is read as a warning. After that, most of the fear is fear of the fear itself.\n\nWe'll get into:\n• the difference between a symptom and a catastrophe\n• why demanding not to be anxious reliably produces more anxiety\n• what the Stoics said about fearing things in advance\n• what actually happens if you follow \"what if I panic\" all the way through\n• what happens to a feeling you stop trying to prevent\n\nNo reading required. We listen to the chapter together.\n\nThe plan for the night:\n• Quick intro from me — who I am, and where these ideas came from\n• We listen to Chapter 15 together (~20 min)\n• Small-group discussion (~20 min)\n• Q&A and open discussion\n\nNot therapy. No diagnosis. Nothing you have to share. Just a good book and a more reasonable way to see the world.",
-      "location": "Online event",
-      "sources": [
-        {
-          "group": "philosophy-therapy",
-          "url": "https://www.meetup.com/philosophy-therapy/events/316326094/"
-        }
-      ],
-      "image": "https://secure.meetupstatic.com/photos/event/6/b/7/7/600_535887511.jpeg",
-      "image_from": "https://www.meetup.com/philosophy-therapy/events/316326094/"
-    },
-    {
       "id": "event_316960128@meetup.com",
       "title": "Stoicism 101: Week 8 - The Right Way to Give",
       "start": "2026-10-29T19:30:00-04:00",
@@ -173,5 +154,5 @@
       "image_from": "https://www.meetup.com/philosophy-therapy/events/316326250/"
     }
   ],
-  "generated": "2026-10-27T16:02:59Z"
+  "generated": "2026-10-28T01:20:31Z"
 }
