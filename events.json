@@ -21,25 +21,6 @@
   ],
   "events": [
     {
-      "id": "event_317197436@meetup.com",
-      "title": "Acquiring Self-Discipline",
-      "start": "2026-11-03T19:30:00-05:00",
-      "end": "2026-11-03T20:30:00-05:00",
-      "all_day": false,
-      "tz": "America/New_York",
-      "summary": "You know exactly what you should be doing. Not in general — the specific thing. The email, the appointment, the work you moved to tomorrow yesterday. It came to mind while you read that first line, which is the whole problem: knowing has…",
-      "description": "You know exactly what you should be doing.\nNot in general — the specific thing. The email, the appointment, the work you moved to tomorrow yesterday. It came to mind while you read that first line, which is the whole problem: knowing has never been the missing piece.\n\nWhy do so many thoughtful, self-aware, well-read people find that:\n• they're waiting to feel like it, and have been waiting a while\n• the thing they avoid takes less time than the avoiding does\n• once they finally start, it's rarely as bad as the weeks of not starting\n• an outside deadline gets it done immediately, when nothing else could\n• they've read about this, made a system for it, and abandoned the system\n• putting things off has stopped feeling like something they do and started feeling like who they are\n\nA Guide to Rational Living — the 1961 book that became the foundation of modern cognitive therapy — takes the excuse seriously enough to answer it. You genuinely don't feel like it. That much is true. The false part is the rule hiding underneath it: that the feeling has to come first. It usually doesn't. More often it shows up after you've started, and sometimes it never shows up and the thing gets done anyway.\n\nWe'll get into:\n• why waiting for motivation is the mechanism of the delay, not a symptom of it\n• the difference between \"I don't want to\" and \"I can't make myself\"\n• what the Stoics said about putting things off when tomorrow isn't guaranteed\n• how \"I deserve a break\" becomes an argument against your own interests\n• what changes when the feeling stops being a precondition\n\nNo reading required. We listen to the chapter together.\nThe plan for the night:\n• Quick intro from me — who I am, and where these ideas came from\n• We listen to Chapter 16 together (~20 min)\n• Small-group discussion (~20…",
-      "location": "Online event",
-      "sources": [
-        {
-          "group": "philosophy-therapy",
-          "url": "https://www.meetup.com/philosophy-therapy/events/316326193/"
-        }
-      ],
-      "image": "https://secure.meetupstatic.com/photos/event/6/b/9/0/600_535887536.jpeg",
-      "image_from": "https://www.meetup.com/philosophy-therapy/events/316326193/"
-    },
-    {
       "id": "event_317160039@meetup.com",
       "title": "Stoicism 101: Week 9 - The Right Way to Receive and Return",
       "start": "2026-11-05T19:30:00-05:00",
@@ -230,5 +211,5 @@
       "image_from": "https://www.meetup.com/stoicism/events/317197416/"
     }
   ],
-  "generated": "2026-11-03T04:10:13Z"
+  "generated": "2026-11-04T04:13:41Z"
 }
