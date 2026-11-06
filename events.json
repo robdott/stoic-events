@@ -21,25 +21,6 @@
   ],
   "events": [
     {
-      "id": "event_317160039@meetup.com",
-      "title": "Stoicism 101: Week 9 - The Right Way to Receive and Return",
-      "start": "2026-11-05T19:30:00-05:00",
-      "end": "2026-11-05T20:30:00-05:00",
-      "all_day": false,
-      "tz": "America/New_York",
-      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off the event with a short presentation exploring one of the core ideas of Stoicism, focusing on its real-world application with some practices drawn from the texts.…",
-      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off the event with a short presentation exploring one of the core ideas of Stoicism, focusing on its real-world application with some practices drawn from the texts. Following the presentation, we'll break into smaller groups for a lightly-facilitated discussion about the topic.\n\nThis week, we’ll be discussing the right way to receive and return benefits so that we build bonds of love and interdependence with others. We'll talk about how gratitude returns the debt of kindness, how to deal with ingratitude, and whether we should be grateful to God and Nature. We'll end by discussing a practice from the texts designed to help us put all this advice into action in our daily lives.\n\nHere's the video we'll be watching: https://youtu.be/G1nM9UCJCIs?si=Cf5MJnIhyNyD_lTV&t=10319\n\nAnd here's the text, along with the rest of the resources for the course: https://docs.google.com/document/d/1-6r2KFyv7f-vChnX-9eKovdFsQ6DYoc_CV5RZtJb9XA/edit?usp=sharing\n\nThanks so much for your interest, and please remember:\n\n\"There is no such thing as good or bad fortune for the individual; we live in common. And no one can live happily who has regard to himself alone and transforms everything into a question of his own utility; you must live for your neighbor, if you would live for yourself.\" - Seneca, Letters from a Stoic, Letter 48",
-      "location": "Online event",
-      "sources": [
-        {
-          "group": "stoicism",
-          "url": "https://www.meetup.com/stoicism/events/317160039/"
-        }
-      ],
-      "image": "https://secure.meetupstatic.com/photos/event/b/0/9/3/600_535545203.jpeg",
-      "image_from": "https://www.meetup.com/stoicism/events/317160039/"
-    },
-    {
       "id": "event_317197464@meetup.com",
       "title": "Sunday Stoa #137",
       "start": "2026-11-08T16:00:00-05:00",
@@ -211,5 +192,5 @@
       "image_from": "https://www.meetup.com/stoicism/events/317197416/"
     }
   ],
-  "generated": "2026-11-04T04:13:41Z"
+  "generated": "2026-11-06T04:12:58Z"
 }
