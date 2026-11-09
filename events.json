@@ -21,25 +21,6 @@
   ],
   "events": [
     {
-      "id": "event_317197464@meetup.com",
-      "title": "Sunday Stoa #137",
-      "start": "2026-11-08T16:00:00-05:00",
-      "end": "2026-11-08T19:00:00-05:00",
-      "all_day": false,
-      "tz": "America/New_York",
-      "summary": "If you're interested in going deeper than just the intro classes and exploring the community side of Stoicism, please join us for Sunday Stoa.",
-      "description": "If you're interested in going deeper than just the intro classes and exploring the community side of Stoicism, please join us for Sunday Stoa.\n\nWe begin at 4:00 PM (ET) with 10 minutes of Stoic breath meditation followed by 15 minutes of writing practice.\nAt 4:30 PM, we move into introductions and social time.\nAround 5:00 PM, we’ll listen to selections from the original Stoic texts and then discuss the ideas they present.\n\nThis week, we’ll be listening to Letters 54 and 55 from Seneca’s Letters from a Stoic: On asthma and death, and On Vatia's villa.\n\nHere's the text and video if you’d like to check them out beforehand:\n\nLetter 54\nText: https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_54\nVideo: https://youtu.be/t8kyl8pGvGM\n\nLetter 55\nText: https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_55\nVideo: https://youtu.be/5_JawooZBT4\n\nCome for the whole thing or join us whenever it works best for you. See you Sunday!",
-      "location": "Online event",
-      "sources": [
-        {
-          "group": "stoicism",
-          "url": "https://www.meetup.com/stoicism/events/317197464/"
-        }
-      ],
-      "image": "https://secure.meetupstatic.com/photos/event/b/f/6/9/600_533269001.jpeg",
-      "image_from": "https://www.meetup.com/stoicism/events/317197464/"
-    },
-    {
       "id": "event_317197167@meetup.com",
       "title": "Stoicism 101: Week 2 - Wisdom",
       "start": "2026-11-09T19:30:00-05:00",
@@ -192,5 +173,5 @@
       "image_from": "https://www.meetup.com/stoicism/events/317197416/"
     }
   ],
-  "generated": "2026-11-06T04:12:58Z"
+  "generated": "2026-11-09T01:30:08Z"
 }
