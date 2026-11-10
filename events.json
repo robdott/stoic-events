@@ -78,6 +78,25 @@
       "image_from": "https://www.meetup.com/stoicism/events/317197245/"
     },
     {
+      "id": "event_317362896@meetup.com",
+      "title": "Sunday Stoa #138",
+      "start": "2026-11-15T16:00:00-05:00",
+      "end": "2026-11-15T19:00:00-05:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "If you're interested in going deeper than just the intro classes and exploring the community side of Stoicism, please join us for Sunday Stoa.",
+      "description": "If you're interested in going deeper than just the intro classes and exploring the community side of Stoicism, please join us for Sunday Stoa.\n\nWe begin at 4:00 PM (ET) with 10 minutes of Stoic breath meditation followed by 15 minutes of writing practice.\nAt 4:30 PM, we move into introductions and social time.\nAround 5:00 PM, we’ll listen to selections from the original Stoic texts and then discuss the ideas they present.\n\nThis week, we’ll be listening to Letters 56 and 57 from Seneca’s Letters from a Stoic: On quiet and study, and On the trials of travel.\n\nHere's the text and video if you’d like to check them out beforehand:\n\nLetter 56\nText: https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_56\nVideo: https://youtu.be/1mqngKV3twQ\n\nLetter 57\nText: https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_57\nVideo: https://youtu.be/BFTfPPpYR6s\n\nCome for the whole thing or join us whenever it works best for you. See you Sunday!",
+      "location": "Online event",
+      "sources": [
+        {
+          "group": "stoicism",
+          "url": "https://www.meetup.com/stoicism/events/317362896/"
+        }
+      ],
+      "image": "https://secure.meetupstatic.com/photos/event/b/f/6/9/600_533269001.jpeg",
+      "image_from": "https://www.meetup.com/stoicism/events/317362896/"
+    },
+    {
       "id": "event_317197354@meetup.com",
       "title": "Stoicism 101: Week 3 - Justice",
       "start": "2026-11-16T19:30:00-05:00",
@@ -135,6 +154,25 @@
       "image_from": "https://www.meetup.com/stoicism/events/317197395/"
     },
     {
+      "id": "event_317362931@meetup.com",
+      "title": "Sunday Stoa #139",
+      "start": "2026-11-22T16:00:00-05:00",
+      "end": "2026-11-22T19:00:00-05:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "If you're interested in going deeper than just the intro classes and exploring the community side of Stoicism, please join us for Sunday Stoa.",
+      "description": "If you're interested in going deeper than just the intro classes and exploring the community side of Stoicism, please join us for Sunday Stoa.\n\nWe begin at 4:00 PM (ET) with 10 minutes of Stoic breath meditation followed by 15 minutes of writing practice.\nAt 4:30 PM, we move into introductions and social time.\nAround 5:00 PM, we’ll listen to selections from the original Stoic texts and then discuss the ideas they present.\n\nThis week, we’ll be listening to Letter 58 from Seneca’s Letters from a Stoic: On being.\n\nHere's the text and video if you’d like to check them out beforehand:\n\nLetter 56\nText: https://en.wikisource.org/wiki/Moral_letters_to_Lucilius/Letter_58\nVideo: https://youtu.be/F7MQY4b737k\n\nCome for the whole thing or join us whenever it works best for you. See you Sunday!",
+      "location": "Online event",
+      "sources": [
+        {
+          "group": "stoicism",
+          "url": "https://www.meetup.com/stoicism/events/317362931/"
+        }
+      ],
+      "image": "https://secure.meetupstatic.com/photos/event/b/f/6/9/600_533269001.jpeg",
+      "image_from": "https://www.meetup.com/stoicism/events/317362931/"
+    },
+    {
       "id": "event_317197404@meetup.com",
       "title": "Stoicism 101: Week 4 - Courage",
       "start": "2026-11-23T19:30:00-05:00",
@@ -173,5 +211,5 @@
       "image_from": "https://www.meetup.com/stoicism/events/317197416/"
     }
   ],
-  "generated": "2026-11-09T01:30:08Z"
+  "generated": "2026-11-10T01:24:29Z"
 }
