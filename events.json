@@ -173,6 +173,25 @@
       "image_from": "https://www.meetup.com/stoicism/events/317197404/"
     },
     {
+      "id": "event_317368848@meetup.com",
+      "title": "Overcoming the Influences of the Past",
+      "start": "2026-11-24T19:30:00-05:00",
+      "end": "2026-11-24T20:30:00-05:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "You already know where it came from. You’ve probably known for years. So why are you still doing it?",
+      "description": "You already know where it came from. You’ve probably known for years. So why are you still doing it?\n\nWhy do so many thoughtful, self-aware, well-read people find that:\n• the explanation is complete and the problem is unchanged\n• they know a criticism is unfair and it still lands\n• they can trace a belief to childhood and still can’t put it down\n• something a friend said years ago still stings on recall\n• understanding the cause turned out not to be the cure\n\nA Guide to Rational Living — the 1961 book that became the foundation of modern cognitive therapy — concedes more than you’d expect. Children really do need attention and love, and being deprived of it really does damage them. The past was not nothing. But adversity alone didn’t produce the problem. What happened to you, multiplied by what you concluded about it, is what produced it. And the conclusion is the part still running today.\n\nWe’ll get into:\n• why two people can be rejected the same way and turn out differently\n• the difference between being sad about something and being hurt by it\n• why concern and caring are useful, and where they tip into anxiety\n• how “it is bad that I acted badly” becomes “I am bad”\n• why insight into the cause so rarely fixes anything\n\nNo reading required. We listen to the chapter together.\n\nThe plan for the night:\n• Quick intro from me — who I am, and where these ideas came from\n• We listen to Chapter 7 together (~20 min)\n• Small-group discussion (~20 min)\n• Q&A and open discussion\n\nNot therapy. No diagnosis. Nothing you have to share. Just a good book and a more reasonable way to see the world.",
+      "location": "Online event",
+      "sources": [
+        {
+          "group": "philosophy-therapy",
+          "url": "https://www.meetup.com/philosophy-therapy/events/317368848/"
+        }
+      ],
+      "image": "https://secure.meetupstatic.com/photos/event/6/8/9/8/600_535886776.jpeg",
+      "image_from": "https://www.meetup.com/philosophy-therapy/events/317368848/"
+    },
+    {
       "id": "event_317197416@meetup.com",
       "title": "Stoicism 101: Week 12 - How to Practice Stoicism",
       "start": "2026-11-26T19:30:00-05:00",
@@ -192,5 +211,5 @@
       "image_from": "https://www.meetup.com/stoicism/events/317197416/"
     }
   ],
-  "generated": "2026-11-10T04:09:57Z"
+  "generated": "2026-11-10T16:07:46Z"
 }
