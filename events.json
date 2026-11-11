@@ -21,25 +21,6 @@
   ],
   "events": [
     {
-      "id": "event_316326235@meetup.com",
-      "title": "Rewriting Your Personal History",
-      "start": "2026-11-10T19:30:00-05:00",
-      "end": "2026-11-10T20:30:00-05:00",
-      "all_day": false,
-      "tz": "America/New_York",
-      "summary": "You've told this story before. Same details, same order, same conclusion. It's a good account. It explains a great deal. And it has been told so many times that it's stopped sounding like an account at all — it just sounds like what…",
-      "description": "You've told this story before. Same details, same order, same conclusion.\nIt's a good account. It explains a great deal. And it has been told so many times that it's stopped sounding like an account at all — it just sounds like what happened.\n\nWhy do so many thoughtful, self-aware, well-read people find that:\n• the story has a shape now, and details that don't fit it have quietly fallen away\n• they can tell it in two minutes, which took practice\n• one stretch of years has become the explanation for everything after it\n• someone who was there describes the same period and it sounds like a different life\n• the telling always arrives at the same conclusion about them\n• the story ends with who they are now, as though that were the only place it could end\n\nA Guide to Rational Living — the 1961 book that became the foundation of modern cognitive therapy — makes a distinction that this chapter turns on. What happened is fixed and not up for negotiation. What it meant is a claim, and claims can be examined. \"It broke me\" and \"it shaped me\" describe the same events with equal accuracy. But one of them is a verdict already delivered, and the other leaves the question of what happens next still open.\n\nWe'll get into:\n• the difference between the events and the account you've built from them\n• why the same history honestly supports more than one telling\n• what the Stoics said about the judgment we attach to an injury\n• whether telling it differently is honesty or just a nicer lie\n• what changes when the story stops ending where it currently ends\n\nNo reading required. We listen to the chapter together.\n\nThe plan for the night:\n• Quick intro from me — who I am, and where these ideas came from\n• We listen to Chapter 17 together (~20 min)\n• Small-group discussion (~20 min)\n• Q&A and op…",
-      "location": "Online event",
-      "sources": [
-        {
-          "group": "philosophy-therapy",
-          "url": "https://www.meetup.com/philosophy-therapy/events/316326235/"
-        }
-      ],
-      "image": "https://secure.meetupstatic.com/photos/event/6/b/a/b/600_535887563.jpeg",
-      "image_from": "https://www.meetup.com/philosophy-therapy/events/316326235/"
-    },
-    {
       "id": "event_317197245@meetup.com",
       "title": "Stoicism 101: Week 10 - Death",
       "start": "2026-11-12T19:30:00-05:00",
@@ -342,7 +323,26 @@
       ],
       "image": "https://secure.meetupstatic.com/photos/event/6/b/9/0/600_535887536.jpeg",
       "image_from": "https://www.meetup.com/philosophy-therapy/events/317373822/"
+    },
+    {
+      "id": "event_317373874@meetup.com",
+      "title": "Rewriting Your Personal History",
+      "start": "2027-01-19T19:30:00-05:00",
+      "end": "2027-01-19T20:30:00-05:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "“Let’s face it, reality often stinks.” That’s the opening line. The chapter doesn’t walk it back, and it doesn’t offer to make the facts nicer than they are.",
+      "description": "“Let’s face it, reality often stinks.”\nThat’s the opening line. The chapter doesn’t walk it back, and it doesn’t offer to make the facts nicer than they are.\n\nWhy do so many thoughtful, self-aware, well-read people find that:\n• they’re right about the person, and being right has never once helped\n• the criticism meant to fix the situation has made it worse\n• they spend more energy on someone else’s decisions than their own\n• they’re waiting for things to be fair before they get on with anything\n• they want the best option, so they take none of them\n• the thing they’re complaining about isn’t quite the thing that’s wrong\n\nA Guide to Rational Living — the 1961 book that became the foundation of modern cognitive therapy — spends this chapter on a woman whose mother is spending an inheritance badly. Laura is probably right about that. She wants it stopped. Ellis asks a question she hasn’t considered: does her mother have the right to be wrong? Then a harder one. If you could actually force people to stop making their own mistakes, what kind of world would you be living in, and would you want to live there?\n\nWe’ll get into:\n• whether other people have a right to be wrong\n• why being right about someone so rarely changes them\n• what Epictetus said about this, which Ellis quotes approvingly\n• the world you’d have to build to stop people making mistakes\n• why the complaint on the surface is often not the real one\n\nNo reading required. We listen to the chapter together.\n\nThe plan for the night:\n• Quick intro from me — who I am, and where these ideas came from\n• We listen to Chapter 18 together (~20 min)\n• Small-group discussion (~20 min)\n• Q&A and open discussion\n\nNot therapy. No diagnosis. Nothing you have to share. Just a good book and a more reasonable way to see the world.",
+      "location": "Online event",
+      "sources": [
+        {
+          "group": "philosophy-therapy",
+          "url": "https://www.meetup.com/philosophy-therapy/events/317373874/"
+        }
+      ],
+      "image": "https://secure.meetupstatic.com/photos/event/6/b/a/b/600_535887563.jpeg",
+      "image_from": "https://www.meetup.com/philosophy-therapy/events/317373874/"
     }
   ],
-  "generated": "2026-11-10T21:57:19Z"
+  "generated": "2026-11-11T04:16:09Z"
 }
