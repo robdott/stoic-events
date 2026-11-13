@@ -21,25 +21,6 @@
   ],
   "events": [
     {
-      "id": "event_317197245@meetup.com",
-      "title": "Stoicism 101: Week 10 - Death",
-      "start": "2026-11-12T19:30:00-05:00",
-      "end": "2026-11-12T20:30:00-05:00",
-      "all_day": false,
-      "tz": "America/New_York",
-      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off the event with a short presentation exploring one of the core ideas of Stoicism, focusing on its real-world application with some practices drawn from the texts.…",
-      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off the event with a short presentation exploring one of the core ideas of Stoicism, focusing on its real-world application with some practices drawn from the texts. Following the presentation, we'll break into smaller groups for a lightly-facilitated discussion about the topic.\n\nThis week, we’ll be discussing how thinking about death in the right way can help us stop wasting our lives. We'll talk about how we waste our time, what we should be spending it on instead, and how to finish our lives each day. We'll also discuss a mindfulness practice designed to help us remember that not even the next hour is guaranteed.\n\nHere's the video we'll be watching: https://youtu.be/G1nM9UCJCIs?si=ES0EKX-x82KWYV&t=11614*x82KWYV*&t=11614\n\nAnd here's the text, along with the rest of the resources for the course: https://docs.google.com/document/d/1-6r2KFyv7f-vChnX-9eKovdFsQ6DYoc_CV5RZtJb9XA/edit?usp=sharing\n\nThanks so much for your interest, and please remember:\n\n\"There is no such thing as good or bad fortune for the individual; we live in common. And no one can live happily who has regard to himself alone and transforms everything into a question of his own utility; you must live for your neighbor, if you would live for yourself.\" - Seneca, Letters from a Stoic, Letter 48",
-      "location": "Online event",
-      "sources": [
-        {
-          "group": "stoicism",
-          "url": "https://www.meetup.com/stoicism/events/317197245/"
-        }
-      ],
-      "image": "https://secure.meetupstatic.com/photos/event/a/0/5/b/600_535121051.jpeg",
-      "image_from": "https://www.meetup.com/stoicism/events/317197245/"
-    },
-    {
       "id": "event_317362896@meetup.com",
       "title": "Sunday Stoa #138",
       "start": "2026-11-15T16:00:00-05:00",
@@ -401,5 +382,5 @@
       "image_from": "https://www.meetup.com/philosophy-therapy/events/317373874/"
     }
   ],
-  "generated": "2026-11-13T01:28:26Z"
+  "generated": "2026-11-13T04:14:43Z"
 }
