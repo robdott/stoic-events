@@ -97,6 +97,25 @@
       "image_from": "https://www.meetup.com/stoicism/events/317197395/"
     },
     {
+      "id": "event_317423975@meetup.com",
+      "title": "The Soul's Descent Into Body (Plotinus, Ennead IV. 8)",
+      "start": "2026-11-20T20:00:00-05:00",
+      "end": "2026-11-20T22:00:00-05:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "In this session, we’ll listen to Plotinus’ tractate The Soul's Descent Into Body (Ennead IV.8), where he explores one of the great mysteries of Platonism: why the soul descends from the intelligible world into embodied existence.",
+      "description": "In this session, we’ll listen to Plotinus’ tractate The Soul's Descent Into Body (Ennead IV.8), where he explores one of the great mysteries of Platonism: why the soul descends from the intelligible world into embodied existence.\n\nPlotinus examines the apparent contradiction between the soul's divine origin and its involvement with the material world. Is embodiment a fall from a higher state, or does the soul descend as part of a greater cosmic order? He considers the purpose of incarnation, the relationship between the individual soul and the universal Soul, and the possibility that something of us always remains above.\n\nKey themes include:\n• Why the soul descends into the body\n• Whether embodiment is a punishment, a necessity, or an expression of cosmic order\n• The relationship between the individual soul and the World Soul\n• The higher aspect of the soul that remains in the intelligible realm\n• The soul's relationship to its divine origin\n\nHere's the text if you’d like to check it out beforehand - https://w.wiki/JHtA\n\nAfter listening, we’ll open a shared discussion around questions such as:\n• Why does the soul descend into embodied existence?\n• Is the descent of the soul a fall, or does it serve a greater purpose?\n• What does Plotinus mean when he suggests that part of the soul never descends?\n• How can we reconcile our embodied existence with our divine nature?\n\nBeginners are very welcome, but this is advanced material.\nYou’ll get much more out of the discussion if you check out this Introduction to Neoplatonism beforehand.",
+      "location": "Online event",
+      "sources": [
+        {
+          "group": "cambridgeplatonists",
+          "url": "https://www.meetup.com/cambridgeplatonists/events/317423975/"
+        }
+      ],
+      "image": "https://secure.meetupstatic.com/photos/event/1/b/9/4/600_537127060.jpeg",
+      "image_from": "https://www.meetup.com/cambridgeplatonists/events/317423975/"
+    },
+    {
       "id": "event_317362931@meetup.com",
       "title": "Sunday Stoa #139",
       "start": "2026-11-22T16:00:00-05:00",
@@ -382,5 +401,5 @@
       "image_from": "https://www.meetup.com/philosophy-therapy/events/317373874/"
     }
   ],
-  "generated": "2026-11-13T04:14:43Z"
+  "generated": "2026-11-14T04:10:49Z"
 }
