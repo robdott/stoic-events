@@ -21,25 +21,6 @@
   ],
   "events": [
     {
-      "id": "event_316326250@meetup.com",
-      "title": "Accepting and Coping with the Grim Facts of Life",
-      "start": "2026-11-17T19:30:00-05:00",
-      "end": "2026-11-17T20:30:00-05:00",
-      "all_day": false,
-      "tz": "America/New_York",
-      "summary": "Some of it is just bad. It isn't a lesson, it isn't a test, and nobody is going to arrive and explain what it was for.",
-      "description": "Some of it is just bad. It isn't a lesson, it isn't a test, and nobody is going to arrive and explain what it was for.\n\nThis chapter starts there and never tries to talk you out of it. What it asks instead is a narrower question: given that it's true, how do you want to live alongside it?\n\nWhy do so many thoughtful, self-aware, well-read people find that:\n• they know life isn't fair, and still catch themselves protesting that it should be\n• the protest changes nothing and is very hard to put down\n• \"acceptance\" sounds like being asked to be fine with it\n• the people who seem to have made peace with something look either enlightened or defeated, and neither is appealing\n• the energy spent objecting to what happened was needed for what comes next\n• the demand that things be otherwise is so constant it doesn't register as a demand\n\nA Guide to Rational Living — the 1961 book that became the foundation of modern cognitive therapy — spends most of its length on beliefs you can dispute and change. This chapter deals with what's left over. Some things cannot be fixed, reframed, or dissolved by clearer thinking, and the question becomes what you do with what you cannot change. Accepting a fact is not approving of it. You can see something clearly, call it what it is, want it to be otherwise — and stop insisting that reality was supposed to be different.\n\nWe'll get into:\n• the difference between accepting something and being fine with it\n• why the demand persists long after we know it changes nothing\n• what the Stoics meant by wanting things to be as they are\n• whether acceptance is wisdom or surrender, and how you'd tell\n• what becomes available once the argument with reality is over\n\nNo reading required. We listen to the chapter together.\n\nThe plan for the night:\n• Quick intro…",
-      "location": "Online event",
-      "sources": [
-        {
-          "group": "philosophy-therapy",
-          "url": "https://www.meetup.com/philosophy-therapy/events/316326250/"
-        }
-      ],
-      "image": "https://secure.meetupstatic.com/photos/event/6/b/e/2/600_535887618.jpeg",
-      "image_from": "https://www.meetup.com/philosophy-therapy/events/316326250/"
-    },
-    {
       "id": "event_317197395@meetup.com",
       "title": "Stoicism 101: Week 11 - The Happy Life",
       "start": "2026-11-19T19:30:00-05:00",
@@ -380,7 +361,26 @@
       ],
       "image": "https://secure.meetupstatic.com/photos/event/6/b/a/b/600_535887563.jpeg",
       "image_from": "https://www.meetup.com/philosophy-therapy/events/317373874/"
+    },
+    {
+      "id": "event_317373920@meetup.com",
+      "title": "Accepting and Coping with the Grim Facts of Life",
+      "start": "2027-01-26T19:30:00-05:00",
+      "end": "2027-01-26T20:30:00-05:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "“Let’s face it, reality often stinks.” That’s the opening line. The chapter doesn’t walk it back, and it doesn’t offer to make the facts nicer than they are.",
+      "description": "“Let’s face it, reality often stinks.”\nThat’s the opening line. The chapter doesn’t walk it back, and it doesn’t offer to make the facts nicer than they are.\n\nWhy do so many thoughtful, self-aware, well-read people find that:\n• they’re right about the person, and being right has never once helped\n• the criticism meant to fix the situation has made it worse\n• they spend more energy on someone else’s decisions than their own\n• they’re waiting for things to be fair before they get on with anything\n• they want the best option, so they take none of them\n• the thing they’re complaining about isn’t quite the thing that’s wrong\n\nA Guide to Rational Living — the 1961 book that became the foundation of modern cognitive therapy — spends this chapter on a woman whose mother is spending an inheritance badly. Laura is probably right about that. She wants it stopped. Ellis asks a question she hasn’t considered: does her mother have the right to be wrong? Then a harder one. If you could actually force people to stop making their own mistakes, what kind of world would you be living in, and would you want to live there?\n\nWe’ll get into:\n• whether other people have a right to be wrong\n• why being right about someone so rarely changes them\n• what Epictetus said about this, which Ellis quotes approvingly\n• the world you’d have to build to stop people making mistakes\n• why the complaint on the surface is often not the real one\n\nNo reading required. We listen to the chapter together.\n\nThe plan for the night:\n• Quick intro from me — who I am, and where these ideas came from\n• We listen to Chapter 18 together (~20 min)\n• Small-group discussion (~20 min)\n• Q&A and open discussion\n\nNot therapy. No diagnosis. Nothing you have to share. Just a good book and a more reasonable way to see the world.",
+      "location": "Online event",
+      "sources": [
+        {
+          "group": "philosophy-therapy",
+          "url": "https://www.meetup.com/philosophy-therapy/events/317373920/"
+        }
+      ],
+      "image": "https://secure.meetupstatic.com/photos/event/6/b/e/2/600_535887618.jpeg",
+      "image_from": "https://www.meetup.com/philosophy-therapy/events/317373920/"
     }
   ],
-  "generated": "2026-11-17T01:33:48Z"
+  "generated": "2026-11-18T01:39:48Z"
 }
