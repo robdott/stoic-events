@@ -21,25 +21,6 @@
   ],
   "events": [
     {
-      "id": "event_317197395@meetup.com",
-      "title": "Stoicism 101: Week 11 - The Happy Life",
-      "start": "2026-11-19T19:30:00-05:00",
-      "end": "2026-11-19T20:30:00-05:00",
-      "all_day": false,
-      "tz": "America/New_York",
-      "summary": "Join us for an evening of Stoic philosophy and discussion. We'll kick off the event with a short presentation exploring one of the core ideas of Stoicism, focusing on its real-world application with some practices drawn from the texts.…",
-      "description": "Join us for an evening of Stoic philosophy and discussion. We'll kick off the event with a short presentation exploring one of the core ideas of Stoicism, focusing on its real-world application with some practices drawn from the texts. Following the presentation, we'll break into smaller groups for a lightly-facilitated discussion about the topic.\n\nThis week, we’ll be discussing the Happy Life, Stoic joy, and how our pursuit of virtue should also make us the happiest people. We'll also talk about how to deal with critics, and how practice Stoicism if you aren't temperamentally suited for it.\n\nHere's the video we'll be watching: https://youtu.be/G1nM9UCJCIs?si=8Ht89YsSxfG3OcPP&t=12794\n\nAnd here's the text, along with the rest of the resources for the course: https://docs.google.com/document/d/1-6r2KFyv7f-vChnX-9eKovdFsQ6DYoc_CV5RZtJb9XA/edit?usp=sharing\n\nThanks so much for your interest, and please remember:\n\n\"There is no such thing as good or bad fortune for the individual; we live in common. And no one can live happily who has regard to himself alone and transforms everything into a question of his own utility; you must live for your neighbor, if you would live for yourself.\" - Seneca, Letters from a Stoic, Letter 48",
-      "location": "Online event",
-      "sources": [
-        {
-          "group": "stoicism",
-          "url": "https://www.meetup.com/stoicism/events/317197395/"
-        }
-      ],
-      "image": "https://secure.meetupstatic.com/photos/event/8/c/8/e/600_535235982.jpeg",
-      "image_from": "https://www.meetup.com/stoicism/events/317197395/"
-    },
-    {
       "id": "event_317423975@meetup.com",
       "title": "The Soul's Descent Into Body (Plotinus, Ennead IV. 8)",
       "start": "2026-11-20T20:00:00-05:00",
@@ -382,5 +363,5 @@
       "image_from": "https://www.meetup.com/philosophy-therapy/events/317373920/"
     }
   ],
-  "generated": "2026-11-18T01:39:48Z"
+  "generated": "2026-11-20T04:14:23Z"
 }
