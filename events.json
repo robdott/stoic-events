@@ -97,6 +97,25 @@
       "image_from": "https://www.meetup.com/stoicism/events/317197416/"
     },
     {
+      "id": "event_317606252@meetup.com",
+      "title": "General Semantics 101: Language and Survival",
+      "start": "2026-12-04T20:00:00-05:00",
+      "end": "2026-12-04T21:30:00-05:00",
+      "all_day": false,
+      "tz": "America/New_York",
+      "summary": "General Semantics is a practice of becoming aware of how we use language and abstraction, and of noticing the gap between our words and the reality they describe. It's best known for the idea that \"the map is not the territory\": our words…",
+      "description": "General Semantics is a practice of becoming aware of how we use language and abstraction, and of noticing the gap between our words and the reality they describe. It's best known for the idea that \"the map is not the territory\": our words, labels, and beliefs are representations, not the things themselves. Like Stoicism, it's a practice of learning to pause and examine your habitual reactions before acting on them.\n\nWe're working through S.I. Hayakawa's classic Language in Thought and Action (5th edition), one chapter per week. No prior reading needed, and you can join any week.\n\nChapter 1, \"Language and Survival,\" asks what \"fitness to survive\" means for humans. Hayakawa argues that language, which lets us pool knowledge across generations and cooperate on a huge scale, is our most important survival tool. It's also something most of us rarely think about, even though we're immersed in words all day.\n\nHere's the audio if you want to check it out ahead of time - https://drive.google.com/file/d/1xiMZ03qiuPmPoFY6EWmSN6lFlVuL5MtX/view?usp=sharing\n\nFormat: I'll introduce a few key ideas from General Semantics, then we'll listen to the chapter together (about 25 minutes), then we'll discuss with prompts to get us started.",
+      "location": "Online event",
+      "sources": [
+        {
+          "group": "stoicism",
+          "url": "https://www.meetup.com/stoicism/events/317606252/"
+        }
+      ],
+      "image": "https://secure.meetupstatic.com/photos/event/5/0/0/0/600_537320480.jpeg",
+      "image_from": "https://www.meetup.com/stoicism/events/317606252/"
+    },
+    {
       "id": "event_317462436@meetup.com",
       "title": "Stoicism 101: Week 6 - Self-Control",
       "start": "2026-12-07T19:30:00-05:00",
@@ -287,5 +306,5 @@
       "image_from": "https://www.meetup.com/philosophy-therapy/events/317373920/"
     }
   ],
-  "generated": "2026-11-25T08:46:06Z"
+  "generated": "2026-11-27T23:31:15Z"
 }
